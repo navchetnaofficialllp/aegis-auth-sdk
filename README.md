@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aegis Auth - JavaScript SDK
 
 **Aegis Auth is a unified identity management system providing memory-safe Rust-based authentication. Consolidation of disparate identity providers into a single canonical source.**
@@ -381,3 +382,7 @@ aegis.login('user@example.com', 'password')
 ## License
 
 MIT License - see LICENSE file for details.
+=======
+# aegis-auth-sdk
+Aegis Auth is a unified identity management system providing memory-safe Rust-based authentication. Consolidation of disparate identity providers into a single canonical source.
+>>>>>>> 746fc2c4376c26a198a776b3dbc55aa02e19befa
