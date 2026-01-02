@@ -1,0 +1,50 @@
+{
+  "name": "aegis-auth-navchetna",
+  "version": "1.0.0",
+  "description": "Aegis Auth is a unified identity management system providing memory-safe Rust-based authentication. Consolidation of disparate identity providers into a single canonical source.",
+  "main": "aegis-sdk.js",
+  "types": "aegis-sdk.d.ts",
+  "files": [
+    "aegis-sdk.js",
+    "aegis-sdk.min.js",
+    "aegis-sdk.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npm run minify",
+    "minify": "terser aegis-sdk.js -o aegis-sdk.min.js -c -m",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "authentication",
+    "auth",
+    "webauthn",
+    "mfa",
+    "jwt",
+    "aegis",
+    "sdk",
+    "security",
+    "rust",
+    "identity",
+    "decentralized",
+    "navchetna"
+  ],
+  "author": "Navchetna Technologies",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navchetna/aegis-auth-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/navchetna/aegis-auth-sdk/issues"
+  },
+  "homepage": "https://github.com/navchetna/aegis-auth-sdk#readme",
+  "devDependencies": {
+    "terser": "^5.16.0"
+  },
+  "browser": "aegis-sdk.min.js",
+  "cdn": "https://cdn.jsdelivr.net/npm/aegis-auth-navchetna@latest/aegis-sdk.min.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
