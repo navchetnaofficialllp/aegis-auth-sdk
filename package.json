@@ -33,12 +33,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navchetna/aegis-auth-sdk.git"
+    "url": "git+https://github.com/navchetnaofficialllp/aegis-auth-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/navchetna/aegis-auth-sdk/issues"
+    "url": "https://github.com/navchetnaofficialllp/aegis-auth-sdk/issues"
   },
-  "homepage": "https://github.com/navchetna/aegis-auth-sdk#readme",
+  "homepage": "https://github.com/navchetnaofficialllp/aegis-auth-sdk#readme",
   "devDependencies": {
     "terser": "^5.16.0"
   },
